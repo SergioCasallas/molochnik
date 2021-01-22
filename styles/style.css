@@ -6,7 +6,7 @@
   --colorLetterButton: black;
   --fontLetter: 'Montserrat', sans-serif;
 
-  /* ?font-family: 'Montserrat', sans-serif;*/
+  /* ?font-family: 'Montserrat', sans-serif; */
 }
 
 body {
@@ -29,6 +29,7 @@ body {
 .header__logo {
   font-weight: 900;
   font-size: 18pt;
+  cursor: pointer;
 }
 
 .header__ul {
@@ -44,13 +45,14 @@ body {
   list-style: none;
   font-weight: 400;
   text-align: center;
+  cursor: pointer;
 }
 
 .header__location,
 .header__phone {
-  box-sizing: border-box;
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
   font-weight: 600;
   font-size: 16px;
   white-space: nowrap;
@@ -103,15 +105,21 @@ body {
   width: 20%;
   margin: 10% 10%;
   padding: 1% 2%;
+  border: 1px solid var(--colorLetterButton);
   border-radius: 50px;
   background-color: var(--colorButton);
   color: var(--colorLetterButton);
   font-weight: 700;
   font-family: var(--fontLetter);
+  cursor: pointer;
 }
 
 .layout-content__buy::after {
   content: url('../assets/icons/flecha-correcta.png');
+}
+
+.layout-content__buy:hover {
+  filter: invert(100%);
 }
 
 .layout-content__description {
@@ -125,6 +133,7 @@ body {
 .layout-content__cow {
   display: flex;
   margin: 0% 10%;
+  cursor: pointer;
 }
 
 .layout-content__shipping::before {
