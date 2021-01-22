@@ -60,12 +60,12 @@ body {
 }
 
 .header__location::before {
-  content: url('./assets/icons/placeholder.png');
+  content: url('assets/icons/placeholder.png');
   margin: 0% 5%;
 }
 
 .header__phone::before {
-  content: url('./assets/icons/phone-call.png');
+  content: url('assets/icons/phone-call.png');
   margin: 0% 5%;
 }
 
@@ -114,7 +114,7 @@ body {
 }
 
 .layout-content__buy::after {
-  content: url('./assets/icons/flecha-correcta.png');
+  content: url('assets/icons/flecha-correcta.png');
 }
 
 .layout-content__description {
@@ -131,17 +131,17 @@ body {
 }
 
 .layout-content__shipping::before {
-  content: url('./assets/icons/entrega.png');
+  content: url('assets/icons/entrega.png');
   margin: 0% 5%;
 }
 
 .layout-content__packaging::before {
-  content: url('./assets/icons/leche.png');
+  content: url('assets/icons/leche.png');
   margin: 0% 5%;
 }
 
 .layout-content__cow::before {
-  content: url('./assets/icons/vaca.png');
+  content: url('assets/icons/vaca.png');
   margin: 0% 5%;
 }
 
