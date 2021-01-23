@@ -32,7 +32,7 @@ body {
 
 .header__logo {
   font-weight: 900;
-  font-size: 18pt;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 
@@ -58,7 +58,7 @@ body {
   justify-content: center;
   box-sizing: border-box;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   white-space: nowrap;
 }
 
@@ -89,8 +89,11 @@ body {
 }
 
 .layout-content__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 55%;
-  padding-top: 10%;
+  padding: 1% 0%;
 }
 
 .layout-content__slogan {
